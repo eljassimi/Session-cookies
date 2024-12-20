@@ -12,6 +12,7 @@
     <main class="flex items-center justify-center h-screen">
         <div class="text-center">
             <h2 class="text-6xl font-extrabold text-[#7E55E7] mb-4">Your email is :<?php echo $_SESSION["email"] ?></h2>
+            <a class="bg-[#8C52FD] px-10 py-3 mx-4 rounded-sm font-bold text-white" name="logout" href="logout.php">Log Out</a>
         </div>
     </main>
 
